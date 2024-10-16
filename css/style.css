@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(253, 111, 111);
+ }
+ /*https://promo.toflowdesign.com.br/agencia-jet/portfolio*/
+
+
+ 
+ html , body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  
+  
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  
+  
+  
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  
+  
+  
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  
+  
+  
+  }
+
+
+
+  .logo > img{
+    width: 93px;
+    height: 48px;
+    
+    margin-left: 30px;
+  }
+
+ 
+
+  .menuum{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 2px;
+    padding-top: 0px;
+
+  }
+
+  .ulum{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-left: 240px;
+    font-size: 14px;
+    
+  }
+
+ .ulum > li{
+    display: inline-block;
+    
+}
+
+
+.ulum > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 10px;
+    padding: 4px;
+}
+
+
+.menuum{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menuumum {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 12px;
+    
+}
+
+.mmenu a{
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.menuUm{
+    color: rgb(0, 0, 0);
+    font-size: 8px;
+    margin-top: -10px; 
+    margin-left: 12px;
+    
+}
+
+
+.back01 {
+    background-image: url('../img/back.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz o background cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    width: 100vw; /* 100% da largura da tela */
+    height: 145px;
+}
+
+
+.divdois{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 2px;
+    padding-top: 0px;
+    padding-left: 215px;
+    padding-top: 25px;
+
+}
+
+
+.divdois a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 8px;
+    padding: 4px;
+}
+
+
+.divdois ul{
+    list-style: none;
+}
+
+.divdoisimg img{
+    width: 190px;
+    height: 120px;
+    border-radius: 5px;
+}
+.divdois{
+    display: block;
+}
+
+.divdoisimg {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Quatro colunas de tamanho igual */
+    gap: 5px; /* Espaçamento entre as imagens */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px; /* Espaçamento interno opcional */
+}
+

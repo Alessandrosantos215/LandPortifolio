@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1278px){
+   .menuum{
+    background-color: aqua;
+   }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 1140px){
+    .menuum{
+        background-color: rgb(44, 160, 160);
+       }
+    
+
+
+
+
+
+}
+@media only screen and (max-width: 980px){
+    .menuum{
+        background-color: rgb(72, 255, 0);
+       }
+
+       .divflexfinal{
+        gap: 15px;
+       }
+       .menuum{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        
+
+       }
+
+
+
+
+
+    
+}
+
+@media only screen and (max-width: 768px){
+    .menuum{
+        background-color: rgb(34, 52, 214);
+       }
+
+       .mmenu a{
+        display: none;
+
+       }
+
+       .ulum {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 15px; /* Ajuste o valor para controlar o espaçamento entre os itens do menu */
+       }
+    
+    .divdoisimg img{
+        width: 150px;
+
+    }
+
+    .divflexfinal h1{
+        font-size: 11px;
+    }
+    .divflexfinal p{
+        font-size: 10px;
+    }
+    .divflexfinal a{
+        font-size: 10px;
+    }
+    .divflexfinal h3{
+        font-size: 10px;
+    }
+    
+
+
+
+
+    
+}
+@media only screen and (max-width: 640px){
+
+    .menuum{
+        background-color: rgb(255, 0, 212);
+       }
+    
+
+       .menuum{
+        display: none;
+       }
+
+       .divdois {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os elementos horizontalmente */
+        justify-content: center;
+        width: 100%; /* Ocupa a largura total da página */
+    }
+    
+    .divdoisimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens horizontalmente */
+        justify-content: center;
+        
+    }
+    .back01 {
+        width: 390px;
+    }
+    
+    
+
+
+
+
+    .divflexfinal{
+        gap: 1px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .divflexfinal .h1final{
+        font-size: 10px;
+
+    }
+
+
+
+    
+}
+

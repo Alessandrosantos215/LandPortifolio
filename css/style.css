@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(253, 111, 111);
+    background-color: rgb(255, 255, 255);
  }
  /*https://promo.toflowdesign.com.br/agencia-jet/portfolio*/
 
@@ -77,6 +77,7 @@ body{
  .ulum > li{
     display: inline-block;
     
+    
 }
 
 
@@ -85,6 +86,41 @@ body{
     text-decoration: none;
     font-size: 10px;
     padding: 4px;
+ 
+}
+
+.ulum a:hover {
+    transition: all 0.5s;
+    color: #F84054;
+    margin-top: 100px;
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+}
+
+.menuumum a:hover{
+    transition: all 0.5s;
+    color: #F84054;
+    margin-top: 100px;
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+
+}
+
+.menuumum a{
+    color: black;
+}
+
+.menuUm a{
+    color: black;
+
+}
+
+.menuUm a:hover{
+    transition: all 0.5s;
+    color: #F84054;
+    margin-top: 100px;
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+
+
+
 }
 
 
@@ -182,5 +218,117 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row; 
+    gap: 80px;
+    align-items: flex-start;
+    white-space: nowrap;
+  
+    
+
+
 }
+
+.divflexfinal h1{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px;
+    padding-bottom: 10px;
+    
+   
+}
+
+.h1final{
+    border-bottom: 1.8px solid #FF8743 ;
+    display: inline-block; 
+    width: 30%;
+    
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.divflexfinal p{
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.divflexfinal a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px;
+    
+    
+
+}
+
+
+.divflexfinal{
+    padding-bottom: 40px;
+
+}
+
+
+.divflexfinal ul li{
+    font-size: 10px;
+    ;
+}
+
+
+.number{
+    color: brown;
+
+}
+
+.divflexfinal h3{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.divflexfinal h2{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.divflexfinal img{
+        width: 9px;
+        height: 10px;
+}
+
+.h1final{
+    padding: 10px;
+}
+
+.str{
+    font-size: 15px;
+}
+
+
+.number img{
+    width: 15px;
+    height: 15px;
+
+}
+
+.ultima{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 40px 40px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center; /* Garante que o texto esteja centralizado */
+    
+}
+
+.ultimadiv{
+   background-color:  #F84054;
+   margin-bottom: -20px;
+}
+
+
+
 

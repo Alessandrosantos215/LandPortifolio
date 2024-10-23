@@ -1,7 +1,4 @@
 @media only screen and (max-width: 1278px){
-   .menuum{
-    background-color: aqua;
-   }
 
 
 
@@ -10,9 +7,7 @@
 }
 
 @media only screen and (max-width: 1140px){
-    .menuum{
-        background-color: rgb(44, 160, 160);
-       }
+ 
     
 
 
@@ -21,9 +16,7 @@
 
 }
 @media only screen and (max-width: 980px){
-    .menuum{
-        background-color: rgb(72, 255, 0);
-       }
+    
 
        .divflexfinal{
         gap: 15px;
@@ -102,6 +95,17 @@
         align-items: center; /* Centraliza os elementos horizontalmente */
         justify-content: center;
         width: 100%; /* Ocupa a largura total da página */
+       
+        
+      
+    }
+
+    .divdoisimg img {
+        margin: 10px 10px;
+        
+        border-radius: 30px;
+        border: 2px solid coral;
+
     }
     
     .divdoisimg {
@@ -109,21 +113,30 @@
         flex-direction: column;
         align-items: center; /* Centraliza os itens horizontalmente */
         justify-content: center;
+        gap: 40px;
+        padding-right: 300px;
         
     }
     .back01 {
-        width: 390px;
+        width: 100%;
+    }
+
+    .divdoisimg img{
+        width: 100vw;
+        height: 150px;
+
     }
     
     
 
-
-
-
     .divflexfinal{
-        gap: 1px;
-        flex-direction: column;
-        align-items: center;
+        margin-top: 30px;
+        gap: 0px;
+        width: 100vw;
+        padding-left: 80px;
+      
+        
+        
     }
 
 
@@ -132,8 +145,124 @@
 
     }
 
+    .divflexfinal{
+        margin-left: -40px;
+
+    }
+
+    .divflexfinal p{
+        font-size: 15px;
+        
+
+    }
+    .ultimoul a{
+        font-size: 15px;
+    }
+
+    .divflexfinal {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+        justify-content: space-between; /* Espaço entre os elementos */
+        gap: 15px; /* Espaço entre as colunas */
+    }
+    
+    .divflexfinal .h1final{
+        margin-right: 800px;
+        font-size: 17px;
+        font-weight: 200;
+    }    
+
+    .servi2 a {
+        font-size: 15px;
+
+    }
+
+    .divdois a{
+        font-size: 15px;
+        display: none;
+    }
+    .ul02{
+        font-size: 40px;
+    }
+
+    .ultima{
+        font-size: 15px;
+    }
+    .doisultima {
+        font-size: 15px;
+        
+    }
+
+    .doisdivultima h3{
+        font-size: 15px;
+
+    }
+
+    .doisdivultima img{
+        width: 15px;
+        height: 15px;
+    }
 
 
     
+}
+
+
+@media only screen and (max-width: 197px){
+
+    .back01{
+        display: none;
+    }
+
+    .divflexfinal{
+        margin-left: -75px;
+
+    }
+
+
+
+
+
+    
+    .divflexfinal .h1final{
+        font-size: 12px;
+    }
+
+
+    .divflexfinal p {
+        font-size: 9px;
+    }
+    .ultimoul a {
+        font-size: 9px;
+    }
+
+    .ul02 a {
+        font-size: 9px;
+    }
+
+ 
+    .doisdivultima img{
+        width: 15px;
+        height: 15px;
+    }
+
+
+    .doisdivultima h3 {
+        font-size: 9px;
+    }
+
+    .ultima {
+        font-size: 9px;
+    }
+
+
+
+
+
+
+
+
+
+
 }
 

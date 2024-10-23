@@ -159,10 +159,16 @@ body{
     background-size: cover; /* Faz o background cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
-    width: 1264px; /* 100% da largura da tela */
-    height: 145px;
+    width: 100vw; /* 100% da largura da tela */
+    height: 145px; /* 100% da altura da tela */
 }
 
+.mapa iframe {
+    width: 100vw;
+    height: 280px;
+    border: none;
+
+}
 
 .divdois{
     display: flex;
